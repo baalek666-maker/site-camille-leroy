@@ -1,157 +1,232 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camille Leroy — Magnétiseur & Réflexologue à Genève</title>
-    <meta name="description" content="Camille Leroy, magnétiseur et réflexologue à Genève. Soins naturels personnalisés pour soulager les douleurs chroniques, les tensions et retrouver la vitalité. 5,0 étoiles sur Google.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camille Leroy — Magnétiseur & Réflexologue à Genève</title>
+  <meta name="description" content="Camille Leroy, magnétiseur et réflexologue à Genève. Soins naturels personnalisés pour soulager les douleurs chroniques, les tensions et retrouver la vitalité. 5,0 étoiles sur Google.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">Camille Leroy</a>
-            <button class="burger" id="burgerBtn" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#services">Soins</a></li>
-                <li><a href="#testimonials">Témoignages</a></li>
-                <li><a href="#contact" class="nav-cta">Contact</a></li>
-            </ul>
-        </div>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Camille <span>Leroy</span></div>
+      <div>
+        <a href="#pourquoi" class="nav-link">Pourquoi ?</a>
+        <a href="#approche" class="nav-link">Mon approche</a>
+        <a href="#prestations" class="nav-link">Prestations</a>
+        <a href="#qui" class="nav-link">Qui suis-je ?</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
     </nav>
+  </div>
+</header>
 
-    <header class="hero">
-        <div class="hero-content">
-            <p class="section-label">Magnétisme & réflexologie à Genève</p>
-            <h1>Retrouvez votre <em>vitalité</em> naturelle.</h1>
-            <p class="hero-sub">Un accompagnement doux, professionnel et personnalisé pour soulager les douleurs chroniques, les tensions et les pertes d'énergie.</p>
-            <div class="hero-actions">
-                <a href="tel:+41794208788" class="btn btn-primary">Appeler — +41 79 420 87 88</a>
-                <a href="mailto:camille.leroy2017@gmail.com" class="btn btn-secondary">Envoyer un email</a>
-            </div>
-            <div class="rating-hero">
-                <span class="stars">★★★★★</span>
-                <span>5,0 — 72 avis Google</span>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=800&q=80" alt="Lumière naturelle apaisante">
-        </div>
-    </header>
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <h1>Quand le corps crie du secours, <em>il y a une autre voie.</em></h1>
+      <p class="lead">
+        Douleurs chroniques au dos, tension à l'omoplate, fatigue persistante,
+        perte de vitalité… Vous avez tout essayé. Les symptômes reviennent.
+        Le magnétisme et la réflexologie proposent une approche douce,
+        ciblée et profondément personnalisée.
+      </p>
+      <p>
+        Je suis Camille Leroy, magnétiseur & réflexologue à Genève.
+        J'accompagne les personnes vers un soulagement naturel et durable.
+      </p>
+      <div class="hero-rating">
+        <span class="stars">★★★★★</span>
+        <span>5,0 — 72 avis Google</span>
+      </div>
+      <div class="hero-buttons" style="margin-top:36px;">
+        <a href="tel:+41794208788" class="btn btn-primary">Appeler — +41 79 420 87 88</a>
+        <a href="#approche" class="btn btn-outline">Découvrir mon approche</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=800&q=80" alt="Ambiance zen et apaisante">
+      <div class="hero-pill">
+        <strong>72 avis</strong>
+        Note moyenne 5,0 sur Google
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="about" class="about">
-        <div class="container about-grid">
-            <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80" alt="Ambiance zen et apaisante">
-            </div>
-            <div class="about-text">
-                <p class="section-label">Qui suis-je ?</p>
-                <h2>À propos de <em>Camille</em></h2>
-                <p>Magnétiseur et réflexologue sur Genève, je propose des soins naturels visant à soulager les douleurs persistantes, libérer les tensions profondes et restaurer l'équilibre énergétique du corps.</p>
-                <p>Mon approche repose sur l'écoute attentive, la bienveillance et un suivi personnalisé. Chaque séance est adaptée à vos besoins spécifiques — que vous souffriez du dos, de l'omoplate, de fatigue chronique ou que vous recherchiez simplement un moment d'apaisement.</p>
-                <p>Au fil des années, plus de 70 clients m'ont accordé leur confiance. Ce que je privilégie avant tout : un résultat durable et une relation humaine authentique.</p>
-                <a href="#contact" class="btn btn-primary">Prendre rendez-vous</a>
-            </div>
-        </div>
-    </section>
+<section id="pourquoi" style="background:#fff;">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">Vous reconnaissez-vous ?</span>
+      <h2>Les maux qu'on vous dit d'accepter… n'ont pas à être votre normale.</h2>
+      <p>
+        Combien de consultations se concluent par une ordonnance bande-vide,
+        sans jamais chercher l'origine du déséquilibre énergétique ?
+        Le magnétisme ne fait pas taire le symptôme. Il traite la source.
+      </p>
+    </div>
+    <div class="problem-cards">
+      <div class="card">
+        <div class="card-icon">🤕</div>
+        <h3>Douleurs chroniques & tensions</h3>
+        <p>Dos bloqué, omoplate douloureuse, articulations raides… On vous dit que "c'est l'âge" ou "le stress". Pourtant, une désharmonie énergétique profonde peut être restaurée par un soin ciblé et régulier.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔋</div>
+        <h3>Fatigue & perte de vitalité</h3>
+        <p>Le lever le matin devient un effort. L'après-midi s'éternise. Les réserves d'énergie sont vides. Ce n'est pas une fatalité. Le rééquilibrage énergétique permet de retrouver un tonus durable, sans excitants.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌿</div>
+        <h3>Absence d'accompagnement humain</h3>
+        <p>On vous prescrit. On ne vous écoute pas. Le corps parle — il suffit de savoir l'entendre. Chaque séance est adaptée à vos ressentis du moment, dans une bienveillance totale et sans jugement.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="services" class="services">
-        <div class="container">
-            <p class="section-label">Soins proposés</p>
-            <h2>Ce que je pratique</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&q=80" alt="Magnétisme">
-                    </div>
-                    <h3>Magnétisme</h3>
-                    <p>Soin énergétique doux visant à harmoniser le flux vital du corps. Indiqué pour les douleurs chroniques (dos, omoplate, articulations), les tensions profondes, la fatigue persistante et les déséquilibres émotionnels.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&q=80" alt="Réflexologie">
-                    </div>
-                    <h3>Réflexologie</h3>
-                    <p>Massage ciblé des zones réflexes pour stimuler l'auto-régulation de l'organisme. Pression ajustée, ambiance apaisante, explications en temps réel. Idéal pour le stress, les troubles du sommeil et la récupération.</p>
-                </div>
-            </div>
-            <div class="promo-card">
-                <p><strong>Offre 2026</strong> — Votre 2ème séance de 1h30 est offerte. N'hésitez pas à me contacter pour en profiter.</p>
-            </div>
-        </div>
-    </section>
+<section class="approach" id="approche">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag" style="background:rgba(255,255,255,0.12);color:#F5F0EB;">Mon approche</span>
+      <h2>Quatre piliers pour réapprendre à vivre dans son corps</h2>
+      <p>Je ne crois pas aux solutions miracles. Je crois aux ajustements précis qui, accumulés, redessinent l'équilibre énergétique et physique.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Écoute du terrain</h3>
+        <p>Anamnèse approfondie, antécédents, douleurs, mode de vie. On cartographie votre état énergétique avant de poser le premier soin.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Magnétisme ciblé</h3>
+        <p>Passage des mains au-dessus et sur les zones douloureuses pour réharmoniser le flux vital, soulager l'inflammation et libérer les blocages.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Réflexologie personnalisée</h3>
+        <p>Massage des zones réflexes pour stimuler l'auto-régulation. Pression ajustée, ambiance apaisante, explications en temps réel.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Suivi & rituels</h3>
+        <p>Conseils de respiration, gestes du quotidien, et programme de séances sur mesure. Le corps apprend à se réguler. Le résultat tient dans la durée.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <p class="section-label">Témoignages</p>
-            <h2>Ce que disent mes clients</h2>
-            <div class="testi-grid">
-                <blockquote class="testi-card">
-                    <p>"Un soin de réflexologie à la fois très professionnel et profondément apaisant. Camille prend le temps d'expliquer, d'ajuster la pression et d'écouter les besoins. Le résultat s'est fait sentir immédiatement."</p>
-                    <footer>— Olga K.</footer>
-                </blockquote>
-                <blockquote class="testi-card">
-                    <p>"Après de nombreuses années avec une douleur aiguë à l'omoplate, j'avais tout essayé. Chez Camille, la douleur a enfin reculé. Une approque sensible et une sincérité qui font toute la différence."</p>
-                    <footer>— Anicia B.</footer>
-                </blockquote>
-                <blockquote class="testi-card">
-                    <p>"Très bienveillant et sensible. Camille m'a considérablement aidé à travers ses soins pour des tensions au bas du dos et des pertes d'énergie. Je recommande les yeux fermés."</p>
-                    <footer>— Jade R.</footer>
-                </blockquote>
-            </div>
+<section id="prestations" style="background:var(--cream);">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">Prestations</span>
+      <h2>Consultations sur mesure, en cabinet ou à distance</h2>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-item">
+        <div class="icon">✋</div>
+        <div>
+          <h3>Séance de magnétisme</h3>
+          <p>Soin énergétique de 1h pour harmoniser le flux vital du corps. Ciblé sur les douleurs chroniques (dos, omoplate, articulations), les tensions profondes et la fatigue persistante.</p>
         </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container contact-grid">
-            <div class="contact-info">
-                <p class="section-label">Contact</p>
-                <h2>Prenons <em>rendez-vous</em></h2>
-                <p>Le cabinet se situe en plein centre de Genève, à deux pas de la gare de Cornavin. Horaires flexibles du lundi au samedi.</p>
-                <ul class="contact-list">
-                    <li><strong>Adresse</strong><br>Rue de Cornavin 11, 1201 Genève</li>
-                    <li><strong>Téléphone</strong><br><a href="tel:+41794208788">+41 79 420 87 88</a></li>
-                    <li><strong>Email</strong><br><a href="mailto:camille.leroy2017@gmail.com">camille.leroy2017@gmail.com</a></li>
-                </ul>
-            </div>
-            <div class="contact-form">
-                <form action="mailto:camille.leroy2017@gmail.com" method="GET" enctype="text/plain">
-                    <input type="text" name="subject" value="Prise de contact" hidden>
-                    <label>
-                        <span>Nom</span>
-                        <input type="text" name="body" placeholder="Votre nom" required>
-                    </label>
-                    <label>
-                        <span>Email</span>
-                        <input type="email" name="body" placeholder="Votre email" required>
-                    </label>
-                    <label>
-                        <span>Message</span>
-                        <textarea name="body" rows="4" placeholder="Votre message..." required></textarea>
-                    </label>
-                    <button type="submit" class="btn btn-primary">Envoyer un message</button>
-                </form>
-            </div>
+      </div>
+      <div class="spec-item">
+        <div class="icon">🦶</div>
+        <div>
+          <h3>Réflexologie plantaire</h3>
+          <p>Massage ciblé des zones réflexes pour stimuler l'auto-régulation de l'organisme. Idéal pour le stress, les troubles du sommeil, la récupération et la détente profonde.</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>© Camille Leroy — Magnétiseur & Réflexologue à Genève.</p>
-            <p>Rue de Cornavin 11, 1201 Genève — +41 79 420 87 88</p>
+      </div>
+      <div class="spec-item">
+        <div class="icon">💫</div>
+        <div>
+          <h3>Séance combinée</h3>
+          <p>1h30 alliant magnétisme et réflexologie pour un soin complet et intensif. Le corps lâche prise, l'énergie circule à nouveau. Le résultat est souvent immédiat.</p>
         </div>
-    </footer>
+      </div>
+      <div class="spec-item">
+        <div class="icon">📅</div>
+        <div>
+          <h3>Suivi énergétique</h3>
+          <p>Programme de 3 ou 5 séances avec fiches de suivi personnalisées. Pour les douleurs récurrentes ou les phases de grande fatigue chronique.</p>
+        </div>
+      </div>
+    </div>
+    <div class="promo-bar">
+      <strong>Offre 2026</strong> — Votre 2ème séance de 1h30 est offerte. N'hésitez pas à me contacter pour en profiter.
+    </div>
+  </div>
+</section>
 
-    <script>
-        document.getElementById('burgerBtn').addEventListener('click', () => {
-            document.getElementById('navLinks').classList.toggle('open');
-        });
-    </script>
+<section class="about" id="qui" style="background:#fff;">
+  <div class="container about-inner">
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80" alt="Tisane plante bien etre nature">
+    </div>
+    <div>
+      <span class="tag">Votre praticienne</span>
+      <h2>Camille Leroy</h2>
+      <p>
+        Magnétiseur et réflexologue sur Genève, je propose des soins naturels
+        visant à soulager les douleurs persistantes, libérer les tensions profondes
+        et restaurer l'équilibre énergétique du corps.
+      </p>
+      <p>
+        Mon approche repose sur l'écoute attentive, la bienveillance et un suivi
+        personnalisé. Chaque séance est adaptée à vos besoins spécifiques.
+        Ce que je privilégie avant tout : un résultat durable et une relation humaine authentique.
+      </p>
+      <p style="margin-top:24px;">
+        📍 Cabinet à <strong>Rue de Cornavin 11, 1201 Genève</strong><br>
+        📱 +41 79 420 87 88
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-box">
+      <span class="tag">Premier pas</span>
+      <h2>Commençons par un échange</h2>
+      <p>
+        Que vous soyez en quête de soulagement, de compréhension ou simplement curieux
+        de l'approche énergétique, ce premier contact est gratuit et sans engagement.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <strong>Téléphone</strong>
+          <span><a href="tel:+41794208788">+41 79 420 87 88</a></span>
+        </div>
+        <div class="contact-item">
+          <strong>Email</strong>
+          <span><a href="mailto:camille.leroy2017@gmail.com">camille.leroy2017@gmail.com</a></span>
+        </div>
+        <div class="contact-item">
+          <strong>Adresse</strong>
+          <span>Rue de Cornavin 11, 1201 Genève</span>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <a href="tel:+41794208788" class="btn btn-primary">Appeler maintenant</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© Camille Leroy — Magnétiseur & Réflexologue à Genève.</p>
+    <p>Rue de Cornavin 11, 1201 Genève — +41 79 420 87 88</p>
+  </div>
+</footer>
+
 </body>
 </html>
